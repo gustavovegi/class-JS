@@ -28,5 +28,25 @@ const texto2='Olá. mundo';
 const senha="senhaSupersegura456!"
 const stringdeNumeros="34567"
 
-const citação = 'o Leo disse "oi"';
+const citação = "Meu nome é ";
+const meuNome = "Leonardo"
 console.log(citação)
+
+// Concatenação (+)
+
+ console.log(citação + meuNome)
+
+ //
+
+ const cifrao = '\u0024'
+ const aMaiusculo = '\u0041'
+ const tique = '\u2705'
+ const hiragana = '\u3041'
+ 
+ console.log(cifrao)
+ console.log(aMaiusculo)
+ console.log(tique)
+ console.log(hiragana)
+
+ //
+ 
