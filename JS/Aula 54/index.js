@@ -18,14 +18,15 @@
 //retorne as pessoas que tem o nome com 5 letras ou mais 
 //retorne as pessoas com mais de 50 anos
 //retorne as pessooas cujo nome termina com a 
+
 const pessoas = [
-    {nome: 'Luiz', idade: 65},
-    {nome: 'Maria', idade: 100},
+    {nome: 'Luiz', idade: 62},
+    {nome: 'Maria', idade: 23},
     {nome: 'Eduardo', idade: 55},
-    {nome: 'Leticia', idade: 19},
-    {nome: 'Rosana', idade: 32},
-    {nome: 'Wallace', idade: 47}
-];
+    {nome: 'Leticia', idade: 10},
+    {nome: 'Rosana', idade: 64},
+    {nome: 'Wallace', idade: 63}
+ ];
 
 const pessoas2 = pessoas.filter(obj => obj.nome.length >= 5 && obj.idade > 50 && obj.nome.toLowerCase().endsWith('a'));
 console.log(pessoas2)
